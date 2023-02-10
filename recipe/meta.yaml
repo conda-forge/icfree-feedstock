@@ -1,5 +1,5 @@
 {% set name = "icfree" %}
-{% set version = "1.0.0" %}
+{% set version = "2.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/brsynth/icfree-ml/archive/{{ version }}.tar.gz
-  sha256: 2b297087cb5e48b51589286affad2b45e86841207a3f35f2df5382a404a7f9f5
+  sha256: 9a9279181e9f63c3eff89cc03968bf84cb875d5e30d71fee8fc83e2a42ef09bb
 
 build:
   number: 0
@@ -40,7 +40,7 @@ test:
 
 about:
   home: https://github.com/brsynth/icfree-ml
-  summary: "Design of experiments (DoE) and machine learning for cell-free"
+  summary: Design of experiments (DoE) and machine learning for cell-free
   license: MIT
   license_file: LICENSE
 
