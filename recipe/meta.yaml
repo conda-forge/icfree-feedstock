@@ -1,5 +1,5 @@
 {% set name = "icfree" %}
-{% set version = "2.0.2" %}
+{% set version = "2.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/brsynth/icfree-ml/archive/{{ version }}.tar.gz
-  sha256: 9a9279181e9f63c3eff89cc03968bf84cb875d5e30d71fee8fc83e2a42ef09bb
+  sha256: b2c81079d72961b7397fc0348b18bd48c57d38cfa569e9ac6895ae756c8941a8
 
 build:
   number: 0
