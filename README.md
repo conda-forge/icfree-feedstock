@@ -1,11 +1,11 @@
-About icfree
-============
+About icfree-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/icfree-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/brsynth/icfree-ml
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/icfree-feedstock/blob/main/LICENSE.txt)
 
 Summary: Design of experiments (DoE) and machine learning for cell-free
 
@@ -143,6 +143,8 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@breakthewall](https://github.com/breakthewall/)
+* [@guillaume-gricourt](https://github.com/guillaume-gricourt/)
 * [@tduigou](https://github.com/tduigou/)
 * [@yorgomoubayed](https://github.com/yorgomoubayed/)
 
