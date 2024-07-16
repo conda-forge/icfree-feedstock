@@ -20,11 +20,8 @@ requirements:
     - pip
   run:
     - python >=3.8,<3.12
-    - numpy
     - pandas
     - pydoe2
-    - brs_utils
-    - scikit-learn
 
 test:
   source_files:
@@ -48,4 +45,3 @@ extra:
     - guillaume-gricourt
     - breakthewall
     - tduigou
-    - yorgomoubayed
