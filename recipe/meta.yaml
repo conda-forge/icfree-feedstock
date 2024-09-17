@@ -22,6 +22,8 @@ requirements:
     - python >=3.8,<3.12
     - pandas
     - pydoe2
+    - numpy
+    - openpyxl
 
 test:
   source_files:
