@@ -146,5 +146,4 @@ Feedstock Maintainers
 * [@breakthewall](https://github.com/breakthewall/)
 * [@guillaume-gricourt](https://github.com/guillaume-gricourt/)
 * [@tduigou](https://github.com/tduigou/)
-* [@yorgomoubayed](https://github.com/yorgomoubayed/)
 
