@@ -23,7 +23,7 @@ requirements:
     - glob2
     - ipython
     - ipywidgets
-    - matplotlib
+    - matplotlib-base
     - numpy
     - openpyxl
     - pandas
