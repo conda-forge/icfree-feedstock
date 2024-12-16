@@ -32,6 +32,7 @@ requirements:
     - scikit-learn
     - scipy
     - seaborn
+    - statsmodels
     - xgboost
 
 test:
