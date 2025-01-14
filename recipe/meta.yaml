@@ -10,14 +10,14 @@ source:
   sha256: 39e0351897572be83098618c16fe4db78e08adbc72b94ebf61297b697b31bcd5
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install -vv .
 
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python {{ python_min }}
     - setuptools
   run:
     - glob2
@@ -28,7 +28,7 @@ requirements:
     - openpyxl
     - pandas
     - pydoe2
-    - python >=3.8,<3.12
+    - python >={{ python_min }},<3.12
     - scikit-learn
     - scipy
     - seaborn
@@ -42,6 +42,7 @@ test:
     - {{ name|lower }}
   requires:
     - pytest
+    - python {{ python_min }}
   commands:
     - python -m {{ name|lower }} --help
     - python -m pytest
