@@ -17,23 +17,23 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python >=3.8,<3.12
     - setuptools
   run:
-    - glob2
+    - python >=3.8,<3.12
+    - pandas
+    - numpy
+    - pydoe2
+    - openpyxl
+    - statsmodels
+    - matplotlib-base
+    - scikit-learn
+    - seaborn
+    - xgboost
+    - scipy
     - ipython
     - ipywidgets
-    - matplotlib-base
-    - numpy
-    - openpyxl
-    - pandas
-    - pydoe2
-    - python >=3.8,<3.12
-    - scikit-learn
-    - scipy
-    - seaborn
-    - statsmodels
-    - xgboost
+    - glob2
 
 test:
   source_files:
