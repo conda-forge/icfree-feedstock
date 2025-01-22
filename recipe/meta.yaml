@@ -1,5 +1,5 @@
 {% set name = "icfree" %}
-{% set version = "2.7.1" %}
+{% set version = "2.9.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/brsynth/icfree-ml/archive/{{ version }}.tar.gz
-  sha256: 39e0351897572be83098618c16fe4db78e08adbc72b94ebf61297b697b31bcd5
+  sha256: 5d45a8c5755057afd72747b302160d89f6f0dacf972561c1111bde6ae4675be6
 
 build:
   number: 0
@@ -17,23 +17,23 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python >=3.8,<3.12
     - setuptools
   run:
-    - glob2
+    - python >=3.8,<3.12
+    - pandas
+    - numpy
+    - pydoe2
+    - openpyxl
+    - statsmodels
+    - matplotlib-base
+    - scikit-learn
+    - seaborn
+    - xgboost
+    - scipy
     - ipython
     - ipywidgets
-    - matplotlib-base
-    - numpy
-    - openpyxl
-    - pandas
-    - pydoe2
-    - python >=3.8,<3.12
-    - scikit-learn
-    - scipy
-    - seaborn
-    - statsmodels
-    - xgboost
+    - glob2
 
 test:
   source_files:
